@@ -3,5 +3,16 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-image: url('./images/rm-bg.jpg');
-  background-size: cover;
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+}
+
+.Header {
+  font-family: Get Schwifty;
+  color: #03B1C8;
+  text-shadow: 1px 1px 1px #80FE68;
+}
+
+.Header::selection{
+  color:#0B2027;
 }
