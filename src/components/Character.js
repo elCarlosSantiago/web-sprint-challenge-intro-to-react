@@ -9,6 +9,14 @@ const StyledChar = styled.div`
   text-align: justify;
   width: 30%;
 
+  @media(max-width:900px){
+    width:45%;
+  }
+
+  @media(max-width:600px){
+    width:100%;
+  }
+
   img {
     border-radius: 20%;
     box-shadow: 5px 10px black;
