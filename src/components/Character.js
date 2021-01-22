@@ -17,7 +17,7 @@ const StyledChar = styled.div`
         margin-bottom: 4%;
     }
     &::selection{
-        color:#0B2027;
+        background-color:#03B1C8;
     }
   }
   h2 {
