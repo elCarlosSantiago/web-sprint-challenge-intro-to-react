@@ -30,6 +30,7 @@ const App = () => {
     max-width: 100%;
     flex-flow: row wrap;
     justify-content: space-around;
+
     h1 {
       width: 100%;
       justify-content: center;

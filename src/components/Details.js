@@ -5,15 +5,16 @@ const StyledUl = styled.ul`
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  font-family:monospace;
-  font-weight:bold;
-  text-shadow:1px 1px 1px white;
-  font-size:1.25rem;
-  margin-bottom:0;
-  li{
-      &::selection{
-          color:#80FE68;
-      }
+  font-family: monospace;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px white;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+  li {
+    &::selection {
+      color: #80fe68;
+      text-shadow: 1px 1px 1px black;
+    }
   }
 `;
 

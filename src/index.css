@@ -9,10 +9,10 @@ body {
 
 .Header {
   font-family: Get Schwifty;
-  color: #03B1C8;
-  text-shadow: 1px 1px 1px #80FE68;
+  color: #03b1c8;
+  text-shadow: 1px 1px 1px #80fe68;
 }
 
-.Header::selection{
-  color:#0B2027;
+.Header::selection {
+  color: #0b2027;
 }

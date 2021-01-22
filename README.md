@@ -33,10 +33,10 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 React is a front-end JavaScript library that allows us to interface with a virtual representation of the DOM. It serves by breaking down web applications into functional components that rely on slices of state & the ability to 'pass down' props. These components come together to form single page applications which only require a lean HTML file from the server.
 
 1. Describe component state.
-State allows the developer to schedule an update to a component's state object. When this occurs, the component re-renders. 
+   State allows the developer to schedule an update to a component's state object. When this occurs, the component re-renders.
 
 1. Describe props.
-As the name suggests, props are short for properties which are part of a Components configuration. They are passed down 'genetically' by parent Components and are considered immutable for the Component receiving them. 
+   As the name suggests, props are short for properties which are part of a Components configuration. They are passed down 'genetically' by parent Components and are considered immutable for the Component receiving them.
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
 
@@ -80,7 +80,7 @@ Your finished project must include all of the following requirements:
 
 - [x] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
 - [x] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
-- [X] Consistent quotation usage.
+- [x] Consistent quotation usage.
 - [x] Spell-check.
 - [x] Schedule time to review, refine and reassess your work.
 

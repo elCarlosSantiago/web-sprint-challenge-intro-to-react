@@ -8,26 +8,27 @@ const StyledChar = styled.div`
   align-items: center;
   text-align: justify;
   width: 30%;
+
   img {
     border-radius: 20%;
     box-shadow: 5px 10px black;
-    transition:all 0.4s ease-in-out;
-    &:hover{
-        transform:scale(1.15);
-        margin-bottom: 4%;
+    transition: all 0.4s ease-in-out;
+    &:hover {
+      transform: scale(1.15);
+      margin-bottom: 4%;
     }
-    &::selection{
-        background-color:#03B1C8;
+    &::selection {
+      background-color: #03b1c8;
     }
   }
   h2 {
-      font-family: monospace;
-      font-size:2rem;
-      text-shadow:1px 1px 1px white;
-      &::selection{
-          color:#80FE68;
-          text-shadow:1px 1px 1px black;
-      }
+    font-family: monospace;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px white;
+    &::selection {
+      color: #80fe68;
+      text-shadow: 1px 1px 1px black;
+    }
   }
 `;
 
